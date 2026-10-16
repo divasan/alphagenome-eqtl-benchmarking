@@ -1,16 +1,24 @@
 # Python
 __pycache__/
-.ipynb_checkpoints/
 *.pyc
+.ipynb_checkpoints/
 
-# Credentials
+# Environments and credentials
 .env
 .env.*
 !.env.example
+.venv/
+env/
+venv/
 
-# Local data
+# Local data and results
 data/*
 !data/README.md
+results/
 
 # macOS
 .DS_Store
+
+# Editor files
+.vscode/
+.idea/
