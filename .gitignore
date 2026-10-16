@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+
+# Credentials
+.env
+.env.*
+!.env.example
+
+# Local data
+data/*
+!data/README.md
+
+# macOS
+.DS_Store
