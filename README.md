@@ -82,6 +82,6 @@ The table below shows the 9 genes with absolute RNA scores of 0.01 or higher.
 
 CARMIL2 (−0.0274) and SERTAD2 (−0.0196) had the largest negative scores, while PKD1 (+0.0152) and ZBTB16 (+0.0149) had the largest positive scores.
 
-Overall, most genes had small predicted RNA effects. These are AlphaGenome predictions, so we will compare them with eQTL data in the next part of the analysis. The ±0.01 cutoff was used to identify genes with relatively larger predicted effects in our dataset, not as a measure of statistical significance.
+Overall, most genes had small predicted RNA effects.
 
 **Notebook:** `notebooks/02_alphagenome_variant_predictions_all_HPC.ipynb`
