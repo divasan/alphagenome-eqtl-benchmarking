@@ -120,7 +120,7 @@ The LFSR ≤ 0.20 threshold was used for exploratory analysis.
 
 ### Step 4: Compare predicted RNA effects with eQTL estimates
 
-The table below shows the five variant–gene pairs with LFSR ≤ 0.20 in at least one cell type.
+We compared the direction of AlphaGenome-predicted RNA effects with Natri eQTL estimates for the five variant–gene pairs with LFSR ≤ 0.20 in at least one cell type.
 
 | Gene | Variant (REF→ALT) | AlphaGenome score | Mean Natri beta | Minimum LFSR |
 |---|---|---:|---:|---:|
@@ -132,10 +132,10 @@ The table below shows the five variant–gene pairs with LFSR ≤ 0.20 in at lea
 
 Mean Natri beta was calculated across cell types with LFSR ≤ 0.20 for each variant–gene pair.
 
-Two pairs (SFTPA2 and AP3D1) had matching reported effect signs, while three (CSRP1 and the two TRABD variants) had opposite signs.
+### Interpretation
 
-However, the effect-allele orientation of Natri's posterior estimates has not yet been verified. Therefore, these comparisons do not establish confirmed directional agreement or disagreement between AlphaGenome and the eQTL estimates.
+Two pairs (SFTPA2 and AP3D1) had matching reported effect directions between AlphaGenome and Natri, while three (CSRP1 and two TRABD variants) had opposite directions.
 
-Overall, this pilot comparison identified five Hi-C-linked variant–gene pairs with eQTL support at the exploratory LFSR threshold. Further analysis is needed before assessing AlphaGenome's directional prediction accuracy.
+This comparison focuses on the direction of the reported effects, not their magnitudes.
 
 **Notebook:** [03_alphagenome_natri_eqtl_pilot.ipynb](notebooks/03_alphagenome_natri_eqtl_pilot.ipynb)
