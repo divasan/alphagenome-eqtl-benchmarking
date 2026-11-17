@@ -60,7 +60,7 @@ Most of the predicted RNA effects were close to zero, with only a small number o
 
 To look at the effects by gene, we took the largest absolute RNA score for each gene across its linked variants and lung tracks.
 
-The table below shows selected genes with the largest absolute predicted RNA effects from the AlphaGenome rerun.
+The table below shows selected examples of the largest absolute predicted RNA effects from the AlphaGenome rerun.
 
 | Gene | SNP | Lung biosample | Raw score |
 |---|---|---|---:|
@@ -75,7 +75,5 @@ The table below shows selected genes with the largest absolute predicted RNA eff
 | SCGB1A1 | rs2509967 | Left lung | +0.011102 |
 
 CARMIL2 (−0.0231) and SERTAD2 (−0.0188) had the largest negative scores, while ZBTB16 (+0.0161) and PKD1 (+0.0152) had the largest positive scores among these examples.
-
-Overall, most predicted RNA effects were close to zero.
 
 **Notebook:** `notebooks/02_alphagenome_variant_predictions_all_HPC.ipynb`
