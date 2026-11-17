@@ -54,13 +54,13 @@ This gave us 29,955 lung RNA score rows, covering 1,976 unique REF/ALT variant�
 
 ### Step 3: Look at predicted RNA effects
 
-Most of the predicted RNA effects were close to zero, with only a small number of larger positive or negative scores.
+Most predicted RNA effects were close to zero, with relatively few larger positive or negative scores.
 
 ![Distribution of predicted RNA effects in lung](figures/alphagenome_lung_rna_distribution.png)
 
-To look at the effects by gene, we took the largest absolute RNA score for each gene across its linked variants and lung tracks.
+To examine effects by gene, we selected the largest absolute RNA score for each gene across its linked variants and lung tracks.
 
-The table below shows selected examples of the largest absolute predicted RNA effects from the AlphaGenome rerun.
+The table below shows selected examples of genes with the largest absolute predicted RNA effects from the AlphaGenome rerun.
 
 | Gene | SNP | Lung biosample | Raw score |
 |---|---|---|---:|
@@ -74,6 +74,6 @@ The table below shows selected examples of the largest absolute predicted RNA ef
 | TSPAN14 | rs7922621 | Left lung | +0.011761 |
 | SCGB1A1 | rs2509967 | Left lung | +0.011102 |
 
-CARMIL2 (−0.0231) and SERTAD2 (−0.0188) had the largest negative scores, while ZBTB16 (+0.0161) and PKD1 (+0.0152) had the largest positive scores among these examples.
+Among these examples, CARMIL2 (−0.0231) and SERTAD2 (−0.0188) had the largest negative scores, while ZBTB16 (+0.0161) and PKD1 (+0.0152) had the largest positive scores.
 
-**Notebook:** `notebooks/02_alphagenome_variant_predictions_all_HPC.ipynb`
+**Notebook:** [02_alphagenome_variant_predictions_all_HPC.ipynb](notebooks/02_alphagenome_variant_predictions_all_HPC.ipynb)
