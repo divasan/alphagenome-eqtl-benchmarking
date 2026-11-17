@@ -10,6 +10,7 @@ Hi-C data from six human lung samples (3 healthy controls and 3 COPD) were proce
 Loops were filtered to retain those with at least one anchor overlapping both ATAC-seq and enhancer peaks. We then selected loops connecting lung function-associated LD-expanded SNPs at one anchor to a gene transcription start site (TSS) at the other anchor.
 
 This resulted in 189 candidate loops used for AlphaGenome input preparation.
+**Input data:** [189 candidate Hi-C loops](data/189_clean_genes_final_candidate_loops.regulatory_direction_fixed.with_diffHiC_label_fuzzy30kb.bedpe)
 
 ### Step 1: Extract SNP–gene pairs
 
@@ -77,3 +78,5 @@ The table below shows selected examples of genes with the largest absolute predi
 Among these examples, CARMIL2 (−0.0231) and SERTAD2 (−0.0188) had the largest negative scores, while ZBTB16 (+0.0161) and PKD1 (+0.0152) had the largest positive scores.
 
 **Notebook:** [02_alphagenome_variant_predictions_all_HPC.ipynb](notebooks/02_alphagenome_variant_predictions_all_HPC.ipynb)
+
+
